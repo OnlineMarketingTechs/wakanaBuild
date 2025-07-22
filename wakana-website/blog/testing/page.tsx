@@ -26,3 +26,6 @@ export default function RetreatsPage() {
                     </a>
                 </div>
             </div>
+        </div>
+    );
+}
