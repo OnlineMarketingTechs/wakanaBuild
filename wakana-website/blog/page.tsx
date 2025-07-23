@@ -1,4 +1,3 @@
-// File Path: app/blog/page.tsx
 import Link from 'next/link';
 
 export default function BlogPage() {
@@ -51,4 +50,4 @@ export default function BlogPage() {
         </div>
     );
 }
-// File Path: wakana-website/blog/page.tsx
+
