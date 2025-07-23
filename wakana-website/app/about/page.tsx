@@ -25,9 +25,7 @@ export default function AboutPage() {
 
                     <div className="text-center mb-16">
                         <h3 className="text-3xl font-bold text-gray-800 mb-4">My Philosophy</h3>
-                        <blockquote className="text-2xl italic text-gray-600 border-l-4 border-green-500 pl-6 max-w-2xl mx-auto">
-                            "Spiritual healing is not about fixing something that is broken. We are not broken. Healing is releasing or transforming and reintegrating things that are blocking the expression of our true essence."
-                        </blockquote>
+                        <blockquote className="text-2xl ...">&quot;Spiritual healing is not about fixing something that is broken. We are not broken. Healing is releasing or transforming and reintegrating things that are blocking the expression of our true essence.&quot;</blockquote>
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

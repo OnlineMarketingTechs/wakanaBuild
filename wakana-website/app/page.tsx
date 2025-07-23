@@ -18,7 +18,7 @@ export default function Home() {
         { title: "The Sacred Purge", description: "Embrace the Healing Power of Letting Go." },
     ];
 
-    const handleCTAClick = (ebook: any) => {
+    const handleCTAClick = (ebook: { title: string; description: string; }) => {
         setSelectedEbook(ebook);
         setShowModal(true);
     };
@@ -64,8 +64,8 @@ export default function Home() {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Words from the Heart</h2>
                     <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                        <div className="bg-stone-50 p-6 rounded-lg"><p className="text-gray-600 italic">"My time with Wakana was life-changing. I felt seen, held, and guided with such profound love and wisdom. I left with a clarity I hadn't felt in years."</p><p className="text-right font-semibold text-gray-700 mt-4">- A.L.</p></div>
-                        <div className="bg-stone-50 p-6 rounded-lg"><p className="text-gray-600 italic">"Wakana's presence is a gift. She holds space with incredible strength and compassion. The work is deep, but I never felt safer."</p><p className="text-right font-semibold text-gray-700 mt-4">- J.R.</p></div>
+                        <p className="text-gray-600 italic">&quot;My time with Wakana was life-changing. I felt seen, held, and guided with such profound love and wisdom. I left with a clarity I hadn&apos;t felt in years.&quot;</p>
+                        <p className="text-gray-600 italic">&quot;Wakana&apos;s presence is a gift. She holds space with incredible strength and compassion. The work is deep, but I never felt safer.&quot;</p>
                     </div>
                     <div className="text-center mt-12"><img src="https://img.shields.io/badge/As%20Seen%20In-Tricycle%20Day-blue" alt="Tricycle Day Logo" className="mx-auto h-10" /></div>
                 </div>

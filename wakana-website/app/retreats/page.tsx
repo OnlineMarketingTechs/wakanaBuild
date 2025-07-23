@@ -18,9 +18,7 @@ export default function RetreatsPage() {
                     <p className="text-lg text-gray-700 leading-relaxed mb-8">
                         Ayahuasca retreats, and Costa Rica Plant Medicine Centers, are not for everyone and should be vetted carefully to ensure a safe, supportive, and deeply healing journey. Surrounded by the vibrant nature of Costa Rica, you will be guided by Wakana and other experienced shamans through sacred plant medicine ceremonies.
                     </p>
-                    <p className="text-lg text-gray-700 leading-relaxed mb-12">
-                        This is more than a retreat; it's an opportunity to reconnect with your truest self, release what no longer serves you, and step into a more authentic and empowered way of living.
-                    </p>
+                    <p className="text-lg ...">This is more than a retreat; it&apos;s an opportunity to reconnect with your truest self, release what no longer serves you, and step into a more authentic and empowered way of living.</p>
                     <a href="https://www.reunionexperience.org/" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-600 text-white font-bold text-lg py-4 px-10 rounded-lg hover:bg-green-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                         Download the book
                     </a>

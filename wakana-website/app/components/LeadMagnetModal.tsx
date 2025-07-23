@@ -17,7 +17,7 @@ export default function LeadMagnetModal({ setShowModal, ebook }: LeadMagnetModal
               <X />
            </button>
           <h3 className="text-2xl font-bold text-gray-800 mb-4">Thank You for Your Interest!</h3>
-          <p className="text-gray-600 mb-2">You're one step closer to receiving:</p>
+          <p className="text-gray-600 mb-2">You&apos;re one step closer to receiving:</p>
           <p className="text-lg font-semibold text-green-700 mb-6 italic">{ebook.title}</p>
           <p className="text-gray-600 mb-6">Enter your email below to get your free guide.</p>
           <form>
