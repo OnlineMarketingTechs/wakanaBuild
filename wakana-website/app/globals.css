@@ -28,3 +28,37 @@ body {
 .ayamain {
     background-position-y: -155px;
 }
+
+/* Custom animation keyframes */
+@layer base {
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .text-outline {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0; /* Start hidden */
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  
+  .fill-stone-50 {
+    fill: #f9fafb; /* This should match your bg-stone-50 color */
+  }
+}

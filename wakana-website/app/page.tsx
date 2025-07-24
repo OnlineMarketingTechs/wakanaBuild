@@ -5,7 +5,7 @@ import LeadMagnetModal from './components/LeadMagnetModal';
 import Image from 'next/image';
 
 const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="m9 18 6-6-6-6" /></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="m9 18 6-6-6-6" /></svg>
 );
 
 // Define a type for our ebook object
@@ -32,18 +32,23 @@ export default function Home() {
 
     return (
         <>
-            <div className="relative h-[60vh] md:h-[80vh]">
+            <div className="relative h-[70vh] md:h-[90vh] overflow-hidden">
                 <Image 
-                  src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/fa2e2f45-bbe2-4115-b7fe-f1fa2c39209f"
+                  src="/image/wakana_ayahuasca_shaman.webp"
                   alt="Wakana in ceremonial dress"
                   layout="fill"
                   objectFit="cover"
                   priority
                 />
-                <div className="absolute inset-0 bg-black/50"></div>
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-4">
-                    <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4">Wakana WhiteOWL</h1>
-                    <p className="text-xl md:text-2xl font-light max-w-3xl">Ancient Wisdom for Modern Healing. Rediscover Your True Self Through the Healing Power of Nature.</p>
+                <div className="absolute inset-0 bg-black/20"></div>
+                <div className="relative z-10 flex flex-col justify-start pt-64 md:pt-90 items-center h-full text-white text-center px-4">
+                    <h1 className="text-4xl md:text-7xl font-bold tracking-tight leading-tight mb-4 text-outline animate-fade-in-up">Wakana WhiteOWL</h1>
+                    <p className="text-xl md:text-2xl font-light max-w-3xl animate-fade-in-up animation-delay-300">Ancient Wisdom for Modern Healing. Rediscover Your True Self Through the Healing Power of Nature.</p>
+                </div>
+                <div className="absolute bottom-0 left-0 w-full leading-[0]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block w-full h-[80px]">
+                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" className="fill-stone-50"></path>
+                    </svg>
                 </div>
             </div>
 
@@ -67,8 +72,8 @@ export default function Home() {
                         </div>
                         <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Retreats & Offerings</h3>
-                            <p className="text-gray-600 mb-6">Ready for a transformational journey? Find out more about retreats at Reunion.</p>
-                            <Link href="/retreats" className="text-green-600 font-semibold hover:text-green-800 transition-colors">Find a Retreat <ChevronRight className="inline-block" /></Link>
+                            <p className="text-gray-600 mb-6">Ready for a transformational journey? Learn More about the pros and cons of plant medicine retreats.</p>
+                            <Link href="/retreats" className="text-green-600 font-semibold hover:text-green-800 transition-colors">Get Informed <ChevronRight className="inline-block" /></Link>
                         </div>
                     </div>
                 </div>
@@ -108,3 +113,6 @@ export default function Home() {
         </>
     );
 }
+
+
+
