@@ -1,31 +1,45 @@
-// file: app/page.tsx
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import LeadMagnetModal from './components/LeadMagnetModal'; // Corrected relative path
+import LeadMagnetModal from './components/LeadMagnetModal';
+import Image from 'next/image';
 
 const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="m9 18 6-6-6-6" /></svg>
 );
 
+// Define a type for our ebook object
+interface Ebook {
+  title: string;
+  description: string;
+}
+
 export default function Home() {
     const [showModal, setShowModal] = useState(false);
-    const [selectedEbook, setSelectedEbook] = useState(null);
+    // Use the Ebook type for our state, allowing it to be null initially
+    const [selectedEbook, setSelectedEbook] = useState<Ebook | null>(null);
 
-    const ebooks = [
+    const ebooks: Ebook[] = [
         { title: "The Curious Seeker's Guide to Ayahuasca", description: "10 Essential Questions to Ask Before Your First Ceremony." },
         { title: "From Trigger to Transformation", description: "A 5-Step Shamanic Guide to Healing Old Wounds." },
         { title: "The Sacred Purge", description: "Embrace the Healing Power of Letting Go." },
     ];
 
-    const handleCTAClick = (ebook: { title: string; description: string; }) => {
+    const handleCTAClick = (ebook: Ebook) => {
         setSelectedEbook(ebook);
         setShowModal(true);
     };
 
     return (
         <>
-            <div className="relative h-[60vh] md:h-[70vh] bg-cover bg-center bg-[url('/image/wakana_ayahuasca_shaman.webp')]">
+            <div className="relative h-[60vh] md:h-[80vh]">
+                <Image 
+                  src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/fa2e2f45-bbe2-4115-b7fe-f1fa2c39209f"
+                  alt="Wakana in ceremonial dress"
+                  layout="fill"
+                  objectFit="cover"
+                  priority
+                />
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-4">
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4">Wakana WhiteOWL</h1>
@@ -59,13 +73,13 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
+            
             <div className="bg-white py-16 md:py-24">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Words from the Heart</h2>
                     <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                        <p className="text-gray-600 italic">&quot;My time with Wakana was life-changing. I felt seen, held, and guided with such profound love and wisdom. I left with a clarity I hadn&apos;t felt in years.&quot;</p>
-                        <p className="text-gray-600 italic">&quot;Wakana&apos;s presence is a gift. She holds space with incredible strength and compassion. The work is deep, but I never felt safer.&quot;</p>
+                        <div className="bg-stone-50 p-6 rounded-lg"><p className="text-gray-600 italic">&quot;My time with Wakana was life-changing. I felt seen, held, and guided with such profound love and wisdom. I left with a clarity I hadn&apos;t felt in years.&quot;</p><p className="text-right font-semibold text-gray-700 mt-4">- A.L.</p></div>
+                        <div className="bg-stone-50 p-6 rounded-lg"><p className="text-gray-600 italic">&quot;Wakana&apos;s presence is a gift. She holds space with incredible strength and compassion. The work is deep, but I never felt safer.&quot;</p><p className="text-right font-semibold text-gray-700 mt-4">- J.R.</p></div>
                     </div>
                     <div className="text-center mt-12"><img src="https://img.shields.io/badge/As%20Seen%20In-Tricycle%20Day-blue" alt="Tricycle Day Logo" className="mx-auto h-10" /></div>
                 </div>
