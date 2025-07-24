@@ -14,7 +14,7 @@ export default function AboutPage() {
                         </div>
                         <div className="w-full h-80 relative rounded-lg shadow-xl overflow-hidden">
                           <Image 
-                            src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/9e/de2ae9db-cb0c-4422-9dfe-5bd7aff39a8b" 
+                            src="/image/wakanaandshamanka.webp" 
                             alt="Wakana and Shamanka" 
                             layout="fill" 
                             objectFit="cover" 
@@ -37,12 +37,12 @@ export default function AboutPage() {
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/fa2e2f45-bbe2-4115-b7fe-f1fa2c39209f" alt="Wakana" layout="fill" objectFit="cover"/></div>
-                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/5e/548fad-0f97-4219-a1b3-d814200ca553" alt="Retreat" layout="fill" objectFit="cover"/></div>
-                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/d6/2c7e73-e6e4-4a1a-87f0-57da77e99781" alt="Sunset" layout="fill" objectFit="cover"/></div>
-                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden col-span-2 md:col-span-1"><Image src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/d9/23afe4-eb33-4945-8f56-8fa20e98e5cb" alt="Sunset" layout="fill" objectFit="cover"/></div>
-                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/9e/de2ae9db-cb0c-4422-9dfe-5bd7aff39a8b" alt="Wakana and Shamanka" layout="fill" objectFit="cover"/></div>
-                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="https://storage.googleapis.com/gemini-prod-us-west1-409903-assets/b0/6b5f78-45fb-44e4-a34e-4a70096ee765" alt="Wakana with pipe" layout="fill" objectFit="cover"/></div>
+                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="/image/wakana-ayahuasca-ceramony.jpg" alt="Wakana" layout="fill" objectFit="cover"/></div>
+                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="/image/wakana-ceremony-2.jpg" alt="Retreat" layout="fill" objectFit="cover"/></div>
+                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="/image/wakana_shaman_today.webp" alt="Sunset" layout="fill" objectFit="cover"/></div>
+                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden col-span-2 md:col-span-1"><Image src="/image/restaurant-at-night.webp" alt="Sunset" layout="fill" objectFit="cover"/></div>
+                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="/image/wakanaandshamanka2.webp" alt="Wakana and Shamanka" layout="fill" objectFit="cover"/></div>
+                        <div className="w-full h-64 relative rounded-lg shadow-md overflow-hidden"><Image src="/image/wakana-working-with-shamanka.webp" alt="Wakana with pipe" layout="fill" objectFit="cover"/></div>
                     </div>
                 </div>
             </div>

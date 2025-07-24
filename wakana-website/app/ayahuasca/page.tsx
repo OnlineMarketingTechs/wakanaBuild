@@ -19,8 +19,8 @@ export default function AyahuascaPage() {
             a: "Purging can be physical (vomit, bowel movements, shaking, sweating), emotional (crying), or mental (a 'running' mind). All are normal and part of the cleansing process."
         },
         {
-            q: "Will I poop my pants?",
-            a: "This is a common fear, but it is extremely rare. At Reunion, we have private bathrooms and experienced, caring facilitators to assist you with anything you need, ensuring your dignity and comfort."
+            q: "New Question?",
+            a: "New answer goes here. This is a placeholder."
         },
         {
             q: "Is purging necessary?",
