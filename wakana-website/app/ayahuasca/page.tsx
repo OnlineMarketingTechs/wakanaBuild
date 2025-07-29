@@ -7,7 +7,7 @@ const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export default function AyahuascaPage() {
-    const [openFaq, setOpenFaq] = useState<number | null>(null); 
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
 
     const faqData = [
         {
@@ -52,7 +52,7 @@ export default function AyahuascaPage() {
                             <br />
                             <p>At its most basic, Ayahuasca is a sacred tea from the Amazon rainforest, created by brewing two plants together: the <em>Banisteriopsis caapi</em> vine and the leaves of the <em>Psychotria viridis</em> shrub. Individually, these plants have limited psychoactive effect. Yet, when brewed together in a process passed down through generations of indigenous wisdom keepers, they create a potent and visionary medicine.</p>
                             <br />
-                            <p>But to call Ayahuasca merely a substance would be like calling the ocean merely water. Ayahuasca is a spirit. She is a profound intelligence, a master teacher, and a loving, cosmic consciousness that has been referred to for centuries as “La Madrecita,” the Little Mother.</p>
+                            <p>But to call Ayahuasca merely a substance would be like calling the ocean merely water. Ayahuasca is a spirit. She is a profound intelligence, a master teacher, and a loving, cosmic consciousness that has been referred to for centuries as &ldquo;La Madrecita,&rdquo; the Little Mother. She is a guide who, when approached with respect and sincere intention, can offer us a direct experience of the divine tapestry that connects all of life.</p>
                         </div>
                     </section>
 
@@ -123,7 +123,7 @@ export default function AyahuascaPage() {
                     <section>
                          <h3 className="text-3xl font-bold text-gray-800 mb-6 text-center">Is Ayahuasca For You?</h3>
                          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed text-center">
-                            <p>The call to work with Ayahuasca is a deeply personal one. It is not a "quick fix" but a powerful catalyst for those who are sincerely committed to their healing and spiritual growth. It is for those who are ready to take a courageous look within, to take responsibility for their own healing, and to step into a more authentic and love-filled way of life.</p>
+                            <p>The call to work with Ayahuasca is a deeply personal one. It is not a &quot;quick fix&quot; but a powerful catalyst for those who are sincerely committed to their healing and spiritual growth. It is for those who are ready to take a courageous look within, to take responsibility for their own healing, and to step into a more authentic and love-filled way of life.</p>
                             <br />
                             <p>If you feel a calling in your heart, a curiosity that goes beyond the intellectual, we invite you to sit with it. Listen to the quiet whispers of your own soul. The path of plant medicine is a sacred one, and it unfolds with perfect timing for those who are meant to walk it.</p>
                          </div>

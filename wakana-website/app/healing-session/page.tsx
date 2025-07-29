@@ -51,7 +51,7 @@ export default function HealingSessionPage() {
                                 <p>You are not alone. And more importantly, you are not broken.</p>
                                 <p>These triggers are not your enemies. They are faithful messengers from the deepest parts of yourself, calling you home. They are sacred doorways, and on the other side of them lies the freedom, peace, and wholeness you have been seeking. The journey through that doorway is one of the most courageous and rewarding you can ever take.</p>
                                 <p>But you do not have to walk it alone.</p>
-                                <p>I have created "Healing Sessions with Wakana" as a live, interactive video gathering to share the most effective tools I have learned in decades of shamanic practice. This is a space where we can come together to illuminate the path from trigger to transformation. A place where what feels unmanageable can be mentioned, held with compassion, and finally healed.</p>
+                                <p>I have created &quot;Healing Sessions with Wakana&quot; as a live, interactive video gathering to share the most effective tools I have learned in decades of shamanic practice. This is a space where we can come together to illuminate the path from trigger to transformation. A place where what feels unmanageable can be mentioned, held with compassion, and finally healed.</p>
                                 <p>If you feel the call to go deeper and reclaim the love that you ARE, I would be honored to have you join us.</p>
                                 <p>With love,<br/>Wakana</p>
                             </div>
@@ -102,7 +102,7 @@ export default function HealingSessionPage() {
                                     <li>You feel stuck in repetitive emotional patterns.</li>
                                     <li>You are on a spiritual path and ready for direct, embodied healing.</li>
                                     <li>You have experience with plant medicine and seek powerful integration tools.</li>
-                                    <li>You feel a deep soul calling for "something more."</li>
+                                    <li>You feel a deep soul calling for &quot;something more.&quot;</li>
                                     <li>You are ready to stop being at war with your emotions and see them as allies.</li>
                                 </ul>
                             </div>
