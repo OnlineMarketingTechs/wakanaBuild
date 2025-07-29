@@ -1,4 +1,9 @@
 import Link from 'next/link';
+import { posts } from './posts'; // Import the posts data
+
+const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="m9 18 6-6-6-6" /></svg>
+);
 
 export default function BlogPage() {
     const insights = [
@@ -18,20 +23,19 @@ export default function BlogPage() {
                 </div>
 
                 <div className="grid lg:grid-cols-3 gap-8">
-                    {/* Main Content Area */}
                     <div className="lg:col-span-2 space-y-12">
-                        <div className="bg-white p-8 rounded-lg shadow-md text-center">
-                            <h3 className="text-3xl font-bold text-gray-800 mb-4">Coming Soon</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                We are currently cultivating this sacred space. Please check back soon for new articles and wisdom from Wakana.
-                            </p>
-                            <Link href="/" className="font-semibold text-green-600 hover:text-green-800 transition-colors">
-                              &larr; Return to Homepage
-                            </Link>
-                        </div>
+                        {posts.map((post) => (
+                            <div key={post.slug} className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                                <p className="text-sm font-semibold text-green-600 mb-2">{post.category}</p>
+                                <h3 className="text-2xl font-bold text-gray-800 mb-4">{post.title}</h3>
+                                <p className="text-gray-700 leading-relaxed mb-6">{post.excerpt}</p>
+                                <Link href={`/blog/${post.slug}`} className="font-semibold text-green-600 hover:text-green-800 transition-colors">
+                                    Read Full Article <ChevronRight className="inline-block" />
+                                </Link>
+                            </div>
+                        ))}
                     </div>
 
-                    {/* Insights Sidebar */}
                     <div className="lg:col-span-1">
                         <div className="bg-white p-8 rounded-lg shadow-md sticky top-24">
                             <h4 className="text-xl font-bold text-gray-800 mb-6">Quick Insights</h4>
