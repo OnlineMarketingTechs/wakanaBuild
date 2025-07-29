@@ -7,7 +7,7 @@ const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export default function AyahuascaPage() {
-    const [openFaq, setOpenFaq] = useState<number | null>(null);
+    const [openFaq, setOpenFaq] = useState<number | null>(null); 
 
     const faqData = [
         {
