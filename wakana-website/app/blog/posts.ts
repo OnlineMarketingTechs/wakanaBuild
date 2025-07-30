@@ -14,7 +14,7 @@ export const posts: Post[] = [
     title: 'Understanding Your Triggers: A Path to Wholeness',
     category: 'Healing',
     date: 'July 28, 2025',
-    featuredImage: '/image/retreat_blog.jpg',
+    featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Triggers are not bad pieces of code threatening to snatch our quality of life. They are guides, illuminating where we have stored pain...',
     content: `
       <p>One of the power tools we have at our side during the integration period is a greater access to our emotional landscape. One of the opportunities we have to use this power tool comes when we encounter something in our daily lives that triggers us.</p>
@@ -29,7 +29,7 @@ export const posts: Post[] = [
     title: 'The Wisdom of Mr. Rogers: What is Mentionable is Manageable',
     category: 'Philosophy',
     date: 'July 21, 2025',
-     featuredImage: '/image/retreat_blog.jpg',
+     featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Ayahuasca helps us to discover more about known and unknown things we are experiencing. In this way, the medicine enables us to converse...',
     content: `
       <p>Mr. Rogers, the beloved Children’s television personality, was a great man and a powerful healer. My favorite of his sharings is that <strong>what is mentionable is manageable.</strong></p>
@@ -41,7 +41,7 @@ export const posts: Post[] = [
     title: 'You Don\'t Find Self-Love, You Uncover It',
     category: 'Self-Love',
     date: 'August 4, 2025',
-     featuredImage: '/image/retreat_blog.jpg',
+     featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Self-love is not something you find or earn, but something you uncover. This post explores how to gently clear away the layers of conditioning to reveal the radiant, loving essence that has always been you.',
     content: `
       <p>So many of us are on a quest for self-love. We speak of it as if it is a distant shore we must journey to, a prize to be won at the end of a grueling marathon of self-improvement. We are taught to believe that if we can just meditate enough, eat cleanly enough, achieve enough, or heal enough, we will finally arrive at a place where we are worthy of our own affection. We treat our perceived flaws like enemies to be vanquished, and our tender, wounded parts like shameful secrets to be hidden away.</p>
@@ -72,7 +72,7 @@ export const posts: Post[] = [
     title: 'The Sacred Act of Saying \'No\'',
     category: 'Boundaries',
     date: 'August 11, 2025',
-     featuredImage: '/image/retreat_blog.jpg',
+     featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Learn why setting boundaries is not an act of rejection, but a sacred act of self-love that makes true, honest connection possible.',
     content: `
       <p>For those of us with tender, open hearts, the word "no" can feel like a weapon. It can feel sharp in our mouths, a betrayal of our deep desire to be of service, to connect, to be seen as kind and giving. We have been conditioned to believe that our value lies in our accessibility, our flexibility, our endless capacity to say "yes." And so we say "yes" when our bodies are screaming for rest. We say "yes" when our intuition is whispering a warning. We say "yes" when every cell in our being means, "This doesn't feel right."</p>
@@ -105,7 +105,7 @@ export const posts: Post[] = [
     title: 'After the Ceremony: Nurturing Your Healing in the Real World',
     category: 'Integration',
     date: 'August 18, 2025',
-     featuredImage: '/image/retreat_blog.jpg',
+     featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Discover the vital art of integration—the process of weaving the insights from a peak experience into the fabric of your daily life for lasting, embodied change.',
     content: `
       <p>There is a profound, unmistakable beauty that blossoms in the days following a deep healing experience. Whether it comes from a powerful ceremony with plant medicine, a breathwork journey, or a silent retreat, there is a period of grace where the world seems new. Colors appear more vivid, sounds are more crisp, and the heart feels tender and wide open. In this precious state of "relative cleanliness," we feel a deep and abiding connection to our true essence. The quiet voice of our soul is clear, and the path forward feels illuminated with possibility.</p>
@@ -132,7 +132,7 @@ export const posts: Post[] = [
     title: 'Your Mind is a Garden',
     category: 'Mindfulness',
     date: 'August 25, 2025',
-     featuredImage: '/image/retreat_blog.jpg',
+     featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Shift from fighting your thoughts to becoming the wise gardener of your mind. Learn to cultivate peace, joy, and resilience by choosing what you nurture with your attention.',
     content: `
       <p>Imagine your mind is a vast and fertile garden. From the moment you awaken to the moment you fall asleep, seeds are constantly being planted in this inner landscape. Some seeds are blown in by the world around you—a sharp comment from a coworker, a fear-inducing story on the news, an advertisement designed to make you feel incomplete. Many more are planted by your own hands, often unconsciously—the seeds of your recurring worries, your well-worn judgments, and your deepest insecurities.</p>
@@ -161,7 +161,7 @@ export const posts: Post[] = [
     title: 'Your Pain is a Portal to Your Joy',
     category: 'Healing',
     date: 'September 1, 2025',
-        featuredImage: '/image/retreat_blog.jpg',
+        featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Our culture teaches us to avoid pain at all costs, but what if our pain is not an enemy? This post explores how turning toward our pain with compassion can unlock deeper levels of joy and connection.',
     content: `
       <p>From a young age, we are taught to see pain as an enemy. It's something to be avoided, numbed, distracted from, or overcome as quickly as possible. We are handed painkillers for our bodies and a thousand distractions for our hearts. We believe that a "good" life is one with minimal pain and maximum pleasure. But what if this fundamental misunderstanding is the very thing that keeps us from experiencing the true depth and richness of our lives? What if our pain, far from being an obstacle, is actually the portal to our most profound joy?</p>
@@ -184,7 +184,7 @@ export const posts: Post[] = [
     title: 'Healing is Not About Fixing What\'s Broken',
     category: 'Healing',
     date: 'September 8, 2025',
-    featuredImage: '/image/retreat_blog.jpg',
+    featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'We are not projects to be fixed. This post reframes healing as a journey of release and reintegration, helping you see that your true essence is already whole, perfect, and complete.',
     content: `
       <p>In our modern world, we have adopted a deeply mechanistic view of healing. We see ourselves as machines that have broken down. We go to experts to diagnose the problem, identify the faulty parts, and "fix" us so we can get back to functioning properly. This mindset, while useful for repairing a car, can be profoundly damaging when applied to the human soul. It is rooted in a fundamental, painful lie: the belief that we are broken.</p>
@@ -207,7 +207,7 @@ export const posts: Post[] = [
     title: 'The Power of Purpose: You Don\'t Find It, You Choose It',
     category: 'Purpose',
     date: 'September 15, 2025',
-    featuredImage: '/image/retreat_blog.jpg',
+    featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'Many of us wait for our purpose to be revealed, but what if purpose is an active choice? This post explores how to shift from passively searching to actively creating a life of meaning and direction.',
     content: `
       <p>There is a pervasive myth in our culture about purpose. We imagine it is like a hidden treasure, a single, pre-destined path that we are meant to "find." We spend years, sometimes decades, searching for it. We ask, "What is my purpose?" as if the answer exists outside of ourselves, waiting to be discovered under the right rock or revealed by the right guru. This passive search can lead to a state of paralysis, a feeling that we cannot truly begin our lives until we have found this one, magical thing.</p>
@@ -232,7 +232,7 @@ export const posts: Post[] = [
     title: 'Your Emotions Are Not Problems to Be Solved',
     category: 'Emotional Wellness',
     date: 'September 22, 2025',
-    featuredImage: '/image/retreat_blog.jpg',
+    featuredImage: '/image/wakanaandshamanka.webp',
     excerpt: 'We often treat our emotions like problems to be fixed. This post explores a different path: seeing your emotions as sacred messengers and opportunities to come home to yourself with presence and compassion.',
     content: `
       <p>How do you relate to your own emotions? For many of us, our relationship with our inner world is a battle. We label our emotions as "good" or "bad." Joy, excitement, and peace are "good," and we cling to them, trying to make them stay. Anger, sadness, and fear are "bad," and we treat them like problems to be solved. We try to suppress them, analyze them away, or distract ourselves from their presence. We believe that if we were just more evolved or "healed," we wouldn't have to deal with these messy, inconvenient feelings.</p>

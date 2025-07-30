@@ -3,6 +3,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
+// Define the type for the component's props
+interface BlogPostPageProps {
+  params: {
+    slug: string;
+  };
+}
+
 // This function tells Next.js which blog posts exist
 export async function generateStaticParams() {
   return posts.map((post) => ({
@@ -25,9 +32,10 @@ const createShareLink = (platform: 'twitter' | 'facebook' | 'linkedin', url: str
     }
 }
 
-
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+// ✨ FIX: Changed how props are accessed.
+export default async function BlogPostPage(props: BlogPostPageProps) {
+  // We are now getting the slug from the 'props' object.
+  const { slug } = props.params;
   const postIndex = posts.findIndex((p) => p.slug === slug);
 
   if (postIndex === -1) {
@@ -38,8 +46,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const prevPost = postIndex > 0 ? posts[postIndex - 1] : null;
   const nextPost = postIndex < posts.length - 1 ? posts[postIndex + 1] : null;
 
-  // IMPORTANT: Replace with your actual domain for sharing links to work
-  const baseUrl = "[https://wakanamedicinewoman.com](https://wakanamedicinewoman.com)"; 
+  const baseUrl = "https://wakanamedicinewoman.com"; 
   const postUrl = `${baseUrl}/blog/${post.slug}`;
 
   return (
@@ -64,8 +71,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <Image
                     src={post.featuredImage}
                     alt={post.title}
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{objectFit: "cover"}}
                     priority
                 />
             </div>
